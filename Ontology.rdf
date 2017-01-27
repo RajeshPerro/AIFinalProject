@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:admin="http://webns.net/mvcb/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/value"/>
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/region_name"/>
+
+  
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/cof_name"/>
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/cof_family"/>
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/cof_test"/>
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/cof_type"/>
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/phone -->
+
+   
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PriceRange -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Taste -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PriceRange -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#1$-3$">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+        <foaf:value>1$ to 3$</foaf:value>
+        <foaf:region_name>Asia</foaf:region_name>
+    </NamedIndividual>
+    
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#1$-3$">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+        <foaf:value>1$ to 3$</foaf:value>
+        <foaf:region_name>Africa</foaf:region_name>
+    </NamedIndividual>
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#1$-3$">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+        <foaf:value>1$ to 3$</foaf:value>
+        <foaf:region_name>America</foaf:region_name>
+    </NamedIndividual>
+ 
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#2$-5$">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+        <foaf:value>2$ to 5$</foaf:value>
+        <foaf:region_name>Australia</foaf:region_name>
+    </NamedIndividual>
+    
+     <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#2$-5$">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#PriceRange"/>
+        <foaf:value>2$ to 5$</foaf:value>
+        <foaf:region_name>Europe</foaf:region_name>
+    </NamedIndividual>
+    
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Taste -->
+    
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bitter">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>Espresso</foaf:cof_name>
+        <foaf:cof_family>WithoutMilk</foaf:cof_family>
+        <foaf:cof_test>Bitter</foaf:cof_test>
+        <foaf:cof_type>HotCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bitter">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>Espresso</foaf:cof_name>
+        <foaf:cof_family>WithoutMilk</foaf:cof_family>
+        <foaf:cof_test>Bitter</foaf:cof_test>
+        <foaf:cof_type>ColdCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bitter">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeAmericano</foaf:cof_name>
+        <foaf:cof_family>WithoutMilk</foaf:cof_family>
+        <foaf:cof_test>Bitter</foaf:cof_test>
+        <foaf:cof_type>HotCoffee</foaf:cof_type>
+    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bitter">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeAmericano</foaf:cof_name>
+        <foaf:cof_family>WithoutMilk</foaf:cof_family>
+        <foaf:cof_test>Bitter</foaf:cof_test>
+        <foaf:cof_type>ColdCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeChocolate</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>HotCoffee</foaf:cof_type>
+    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeChocolate</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>ColdCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeNocciolato</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>HotCoffee</foaf:cof_type>
+    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CafeNocciolato</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>ColdCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CappuccinoHugot</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>HotCoffee</foaf:cof_type>
+    </NamedIndividual>
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sweet">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Taste"/>
+        <foaf:cof_name>CappuccinoHugot</foaf:cof_name>
+        <foaf:cof_family>WithMilk</foaf:cof_family>
+        <foaf:cof_test>Sweet</foaf:cof_test>
+        <foaf:cof_type>ColdCoffee</foaf:cof_type>
+    </NamedIndividual>
+
+    
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

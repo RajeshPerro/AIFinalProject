@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#"
+     xml:base="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeePriceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeePriceIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#1$-3$"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Asia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#alsoCanbe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#alsoCanbe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#ColdCoffee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#are_the_best_food_pair_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#are_the_best_food_pair_with">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Beignets"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Cake"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Stroopwafel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TimTams"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Toast"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#averageCoffeePriceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#averageCoffeePriceIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#1$-3$"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#America"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#businessForCofee_is_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#businessForCofee_is_In">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TopLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Australia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#businessFor_Cofee_is_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#businessFor_Cofee_is_In">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#LowerLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Africa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Asia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#business_ForCofee_is_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#business_ForCofee_is_In">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#MidLevel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#America"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Europe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#canbe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#canbe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#HotCoffee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#coffeeHasMore -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#coffeeHasMore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sugar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#hasNo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#hasNo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bean"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Filter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#isNormalPriceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#isNormalPriceIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#2$-5$"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Australia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#isUsingtoMake -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#isUsingtoMake">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeMug"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeePowder"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sugar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Water"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#mustHas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#mustHas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#priceIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#priceIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#1$-3$"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Africa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#price_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#price_In">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#2$-5$"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Europe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#test -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#test">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bean"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Filter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bitter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Africa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Africa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Asia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Asia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Australia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Australia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Beignets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Beignets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Taste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#BusinessArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#BusinessArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeBusiness"/>
+        <rdfs:comment>Business area : These are the areas in the world where the business for coffee&apos;s is better than oether areas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeAmericano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeAmericano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeChocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeChocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeLatte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeLatte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Mild"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeNocciolato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CafeNocciolato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Cake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Cake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Cappuccino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Cappuccino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Mild"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CappuccinoHugot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CappuccinoHugot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee">
+        <rdfs:comment>Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.
+
+Source : https://en.wikipedia.org/wiki/Coffee</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeBusiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeBusiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeMug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeMug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeePowder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeePowder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Coffee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#ColdCoffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#ColdCoffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProperty"/>
+        <rdfs:comment>Pour the water in the reservoir and put the carafe back on the heating plate. Measure Your Grounds: Add the desired amount of grounds to the filter: about 1 tablespoon per 5 to 6 fluid ounces of cold water for regular coffee, and 2 tablespoons per 5 to 6 fluid ounces for strong coffee.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Espresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Espresso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Bean"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#EspressoMachiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#EspressoMachiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Strong"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Europe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Europe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Filter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Filter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProperty"/>
+        <rdfs:comment>Coffee and food stuffs are, more often than not, a match made in sensory heaven. And while high-end restaurants are increasingly teaming up with specialty coffee roasters for tastings, dinners, and degustation bonanzas, we thought we’d put together a list of our favorite daily coffee &amp; food pairings. Get snacking.
+
+Source : http://sprudge.com/8-foods-that-were-practically-made-for-coffee-40510.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProduction"/>
+        <rdfs:comment>The history of coffee goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use. The native (undomesticated) origin of coffee is thought to have been Ethiopia. The earliest substantiated evidence of either coffee drinking or knowledge of the coffee tree is from the 15th century, in the Sufi monasteries of Yemen.[1] By the 16th century, it had reached the rest of the Middle East, South India, Persia, Turkey, Horn of Africa, and northern Africa. Coffee then spread to the Balkans, Italy and to the rest of Europe, to Indonesia and then to America.
+Source : https://en.wikipedia.org/wiki/History_of_coffee</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#HotCoffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#HotCoffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#LatteMachiato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#LatteMachiato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Mild"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#LowerLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#LowerLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#BusinessArea"/>
+        <rdfs:comment>African, and Asian cities has lower level selling percentages than the others.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#MidLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#MidLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#BusinessArea"/>
+        <rdfs:comment>London, Reykjavik, Rome, New York etc. those EU and American cities has lower populartiy than Melbourne that is why Europe and America are in MidLevel seller position.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:comment>Medium(or mild) has more caffiene
+Source : https://answers.yahoo.com/question/index?qid=20080218135105AAZFpQG</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#PriceRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#PriceRange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeBusiness"/>
+        <rdfs:comment>These are the average price range of coffee in all over the world.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Description"/>
+        <rdfs:comment>These are the must needed things for making coffee.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:comment>Strong is the good combination of all Raw Materials.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Stroopwafel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Stroopwafel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk"/>
+        <rdfs:comment>This types of coffes has more milk and sugar.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Taste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Taste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TimTams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TimTams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Toast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Toast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#FoodPair"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TopLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TopLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#BusinessArea"/>
+        <rdfs:comment>Melbourne is the top coffee selling place in the World. So, Australia is the TopLevel Seller.
+Link : http://edition.cnn.com/2014/03/04/travel/best-coffee-cities/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TopSeller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#TopSeller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeBusiness"/>
+        <rdfs:comment>These are the companies who selles best coffees all over the world.
+Link : http://listaka.com/12-largest-coffee-chains-world/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#RawMaterials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily"/>
+        <rdfs:comment>This types Coffe prepare with Milk.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#WithoutMilk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#CoffeeFamily"/>
+        <rdfs:comment>This types Coffe prepare without Milk.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#1$-3$ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#1$-3$">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#PriceRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#2$-5$ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#2$-5$">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh/ontologies/2016/9/Coffee_RAJESH_GHOSH#PriceRange"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

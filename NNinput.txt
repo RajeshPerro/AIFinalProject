@@ -1,2 +1,6 @@
-price
-taste
+TASTE
+PRICE
+PRICE
+TASTE
+TASTE
+PRICE
